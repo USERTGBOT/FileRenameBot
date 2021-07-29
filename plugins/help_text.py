@@ -99,7 +99,7 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("Help", callback_data = "help")
+                        InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
                     InlineKeyboardButton('CHANNEL', url='https://t.me/M_STER_TECH'),
@@ -125,7 +125,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "help"),
+                    InlineKeyboardButton('Back', callback_data = "ghelp"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
@@ -138,7 +138,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "help"),
+                    InlineKeyboardButton('Back', callback_data = "ghelp"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
@@ -151,7 +151,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "help"),
+                    InlineKeyboardButton('Back', callback_data = "ghelp"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
@@ -181,7 +181,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Back', callback_data = "help"),
+                    InlineKeyboardButton('Back', callback_data = "ghelp"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
